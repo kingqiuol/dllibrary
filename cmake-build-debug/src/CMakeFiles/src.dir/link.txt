@@ -1,0 +1,2 @@
+D:\vim\mingw\bin\ar.exe qc libsrc.a  CMakeFiles/src.dir/convolutional_layer.c.obj CMakeFiles/src.dir/layer.c.obj CMakeFiles/src.dir/batchnorm_layer.c.obj CMakeFiles/src.dir/network.c.obj CMakeFiles/src.dir/activations.c.obj
+D:\vim\mingw\bin\ranlib.exe libsrc.a

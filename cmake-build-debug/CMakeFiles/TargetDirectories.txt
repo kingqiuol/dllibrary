@@ -1,0 +1,16 @@
+D:/dllibrary/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/dllibrary/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/dllibrary/cmake-build-debug/image/CMakeFiles/image.dir
+D:/dllibrary/cmake-build-debug/image/CMakeFiles/edit_cache.dir
+D:/dllibrary/cmake-build-debug/image/CMakeFiles/rebuild_cache.dir
+D:/dllibrary/cmake-build-debug/src/CMakeFiles/src.dir
+D:/dllibrary/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+D:/dllibrary/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir
+D:/dllibrary/cmake-build-debug/examples/CMakeFiles/edit_cache.dir
+D:/dllibrary/cmake-build-debug/examples/CMakeFiles/rebuild_cache.dir
+D:/dllibrary/cmake-build-debug/examples/NNS/CMakeFiles/NNs.dir
+D:/dllibrary/cmake-build-debug/examples/NNS/CMakeFiles/edit_cache.dir
+D:/dllibrary/cmake-build-debug/examples/NNS/CMakeFiles/rebuild_cache.dir
+D:/dllibrary/cmake-build-debug/utils/CMakeFiles/utils.dir
+D:/dllibrary/cmake-build-debug/utils/CMakeFiles/edit_cache.dir
+D:/dllibrary/cmake-build-debug/utils/CMakeFiles/rebuild_cache.dir

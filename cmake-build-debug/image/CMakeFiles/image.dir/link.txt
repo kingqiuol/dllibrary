@@ -1,0 +1,2 @@
+D:\vim\mingw\bin\ar.exe qc libimage.a  CMakeFiles/image.dir/image.c.obj CMakeFiles/image.dir/matrix.c.obj CMakeFiles/image.dir/panorama_image.c.obj CMakeFiles/image.dir/spatial_filter.c.obj
+D:\vim\mingw\bin\ranlib.exe libimage.a

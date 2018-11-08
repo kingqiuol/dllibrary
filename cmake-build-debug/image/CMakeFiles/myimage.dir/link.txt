@@ -1,0 +1,3 @@
+"D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\myimage.dir/objects.a
+D:\vim\mingw\bin\ar.exe cr CMakeFiles\myimage.dir/objects.a @CMakeFiles\myimage.dir\objects1.rsp
+D:\vim\mingw\bin\gcc.exe  -g   -Wl,--whole-archive CMakeFiles\myimage.dir/objects.a -Wl,--no-whole-archive  -o myimage.exe -Wl,--out-implib,libmyimage.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\myimage.dir\linklibs.rsp

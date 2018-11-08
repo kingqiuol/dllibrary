@@ -1,0 +1,604 @@
+The system is: Windows - 10.0.15063 - AMD64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: D:/vim/mingw/bin/gcc.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+
+The C compiler identification is GNU, found in "D:/dllibrary/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdC/a.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: D:/vim/mingw/bin/gcc.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+
+The CXX compiler identification is GNU, found in "D:/dllibrary/cmake-build-debug/CMakeFiles/3.6.3/CompilerIdCXX/a.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/vim/mingw/bin/mingw32-make.exe" "cmTC_e41f7/fast"
+D:/vim/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTC_e41f7.dir\build.make CMakeFiles/cmTC_e41f7.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e41f7.dir/testCCompiler.c.obj
+D:\vim\mingw\bin\gcc.exe     -o CMakeFiles\cmTC_e41f7.dir\testCCompiler.c.obj   -c D:\dllibrary\cmake-build-debug\CMakeFiles\CMakeTmp\testCCompiler.c
+Linking C executable cmTC_e41f7.exe
+"D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_e41f7.dir\link.txt --verbose=1
+"D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_e41f7.dir/objects.a
+D:\vim\mingw\bin\ar.exe cr CMakeFiles\cmTC_e41f7.dir/objects.a @CMakeFiles\cmTC_e41f7.dir\objects1.rsp
+D:\vim\mingw\bin\gcc.exe       -Wl,--whole-archive CMakeFiles\cmTC_e41f7.dir/objects.a -Wl,--no-whole-archive  -o cmTC_e41f7.exe -Wl,--out-implib,libcmTC_e41f7.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_e41f7.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/vim/mingw/bin/mingw32-make.exe" "cmTC_2d999/fast"
+D:/vim/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTC_2d999.dir\build.make CMakeFiles/cmTC_2d999.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d999.dir/CMakeCCompilerABI.c.obj
+D:\vim\mingw\bin\gcc.exe     -o CMakeFiles\cmTC_2d999.dir\CMakeCCompilerABI.c.obj   -c "D:\clion\CLion 2016.3.5\bin\cmake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"
+Linking C executable cmTC_2d999.exe
+"D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_2d999.dir\link.txt --verbose=1
+"D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_2d999.dir/objects.a
+D:\vim\mingw\bin\ar.exe cr CMakeFiles\cmTC_2d999.dir/objects.a @CMakeFiles\cmTC_2d999.dir\objects1.rsp
+D:\vim\mingw\bin\gcc.exe      -v -Wl,--whole-archive CMakeFiles\cmTC_2d999.dir/objects.a -Wl,--no-whole-archive  -o cmTC_2d999.exe -Wl,--out-implib,libcmTC_2d999.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+Using built-in specs.
+COLLECT_GCC=D:\vim\mingw\bin\gcc.exe
+COLLECT_LTO_WRAPPER=d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --with-gmp=/mingw --with-mpfr --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --enable-libgomp --disable-libvtv --enable-nls
+Thread model: win32
+gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
+COMPILER_PATH=d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/;d:/vim/mingw/bin/../libexec/gcc/;d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/;d:/vim/mingw/bin/../lib/gcc/;d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2d999.exe' '-mtune=generic' '-march=i586'
+ d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\jinqiu\AppData\Local\Temp\cc3bFuuM.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_2d999.exe d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Ld:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0 -Ld:/vim/mingw/bin/../lib/gcc -Ld:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Ld:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\cmTC_2d999.dir/objects.a --no-whole-archive --out-implib libcmTC_2d999.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2d999.exe' '-mtune=generic' '-march=i586'
+mingw32-make.exe[1]: Leaving directory 'D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"D:/vim/mingw/bin/mingw32-make.exe" "cmTC_2d999/fast"]
+  ignore line: [D:/vim/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTC_2d999.dir\build.make CMakeFiles/cmTC_2d999.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_2d999.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [D:\vim\mingw\bin\gcc.exe     -o CMakeFiles\cmTC_2d999.dir\CMakeCCompilerABI.c.obj   -c "D:\clion\CLion 2016.3.5\bin\cmake\share\cmake-3.6\Modules\CMakeCCompilerABI.c"]
+  ignore line: [Linking C executable cmTC_2d999.exe]
+  ignore line: ["D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_2d999.dir\link.txt --verbose=1]
+  ignore line: ["D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_2d999.dir/objects.a]
+  ignore line: [D:\vim\mingw\bin\ar.exe cr CMakeFiles\cmTC_2d999.dir/objects.a @CMakeFiles\cmTC_2d999.dir\objects1.rsp]
+  ignore line: [D:\vim\mingw\bin\gcc.exe      -v -Wl,--whole-archive CMakeFiles\cmTC_2d999.dir/objects.a -Wl,--no-whole-archive  -o cmTC_2d999.exe -Wl,--out-implib,libcmTC_2d999.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\vim\mingw\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --with-gmp=/mingw --with-mpfr --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --enable-libgomp --disable-libvtv --enable-nls]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
+  ignore line: [COMPILER_PATH=d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/]
+  ignore line: [d:/vim/mingw/bin/../libexec/gcc/]
+  ignore line: [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/]
+  ignore line: [d:/vim/mingw/bin/../lib/gcc/]
+  ignore line: [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
+  ignore line: [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2d999.exe' '-mtune=generic' '-march=i586']
+  link line: [ d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\jinqiu\AppData\Local\Temp\cc3bFuuM.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_2d999.exe d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Ld:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0 -Ld:/vim/mingw/bin/../lib/gcc -Ld:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Ld:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\cmTC_2d999.dir/objects.a --no-whole-archive --out-implib libcmTC_2d999.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+    arg [d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\jinqiu\AppData\Local\Temp\cc3bFuuM.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2d999.exe] ==> ignore
+    arg [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o] ==> ignore
+    arg [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o] ==> ignore
+    arg [-Ld:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0] ==> dir [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0]
+    arg [-Ld:/vim/mingw/bin/../lib/gcc] ==> dir [d:/vim/mingw/bin/../lib/gcc]
+    arg [-Ld:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> dir [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib]
+    arg [-Ld:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> dir [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_2d999.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_2d999.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  collapse library dir [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0] ==> [D:/vim/mingw/lib/gcc/mingw32/6.3.0]
+  collapse library dir [d:/vim/mingw/bin/../lib/gcc] ==> [D:/vim/mingw/lib/gcc]
+  collapse library dir [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> [D:/vim/mingw/mingw32/lib]
+  collapse library dir [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> [D:/vim/mingw/lib]
+  implicit libs: [mingw32;moldname;mingwex;msvcrt;advapi32;shell32;user32;kernel32;mingw32;moldname;mingwex;msvcrt]
+  implicit dirs: [D:/vim/mingw/lib/gcc/mingw32/6.3.0;D:/vim/mingw/lib/gcc;D:/vim/mingw/mingw32/lib;D:/vim/mingw/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/vim/mingw/bin/mingw32-make.exe" "cmTC_55fc1/fast"
+D:/vim/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTC_55fc1.dir\build.make CMakeFiles/cmTC_55fc1.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_55fc1.dir/feature_tests.c.obj
+D:\vim\mingw\bin\gcc.exe    -std=c11 -o CMakeFiles\cmTC_55fc1.dir\feature_tests.c.obj   -c D:\dllibrary\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_55fc1.exe
+"D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_55fc1.dir\link.txt --verbose=1
+"D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_55fc1.dir/objects.a
+D:\vim\mingw\bin\ar.exe cr CMakeFiles\cmTC_55fc1.dir/objects.a @CMakeFiles\cmTC_55fc1.dir\objects1.rsp
+D:\vim\mingw\bin\gcc.exe       -Wl,--whole-archive CMakeFiles\cmTC_55fc1.dir/objects.a -Wl,--no-whole-archive  -o cmTC_55fc1.exe -Wl,--out-implib,libcmTC_55fc1.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_55fc1.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/vim/mingw/bin/mingw32-make.exe" "cmTC_7315c/fast"
+D:/vim/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTC_7315c.dir\build.make CMakeFiles/cmTC_7315c.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7315c.dir/feature_tests.c.obj
+D:\vim\mingw\bin\gcc.exe    -std=c99 -o CMakeFiles\cmTC_7315c.dir\feature_tests.c.obj   -c D:\dllibrary\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_7315c.exe
+"D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_7315c.dir\link.txt --verbose=1
+"D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_7315c.dir/objects.a
+D:\vim\mingw\bin\ar.exe cr CMakeFiles\cmTC_7315c.dir/objects.a @CMakeFiles\cmTC_7315c.dir\objects1.rsp
+D:\vim\mingw\bin\gcc.exe       -Wl,--whole-archive CMakeFiles\cmTC_7315c.dir/objects.a -Wl,--no-whole-archive  -o cmTC_7315c.exe -Wl,--out-implib,libcmTC_7315c.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_7315c.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/vim/mingw/bin/mingw32-make.exe" "cmTC_0cd79/fast"
+D:/vim/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTC_0cd79.dir\build.make CMakeFiles/cmTC_0cd79.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0cd79.dir/feature_tests.c.obj
+D:\vim\mingw\bin\gcc.exe    -std=c90 -o CMakeFiles\cmTC_0cd79.dir\feature_tests.c.obj   -c D:\dllibrary\cmake-build-debug\CMakeFiles\feature_tests.c
+Linking C executable cmTC_0cd79.exe
+"D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0cd79.dir\link.txt --verbose=1
+"D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_0cd79.dir/objects.a
+D:\vim\mingw\bin\ar.exe cr CMakeFiles\cmTC_0cd79.dir/objects.a @CMakeFiles\cmTC_0cd79.dir\objects1.rsp
+D:\vim\mingw\bin\gcc.exe       -Wl,--whole-archive CMakeFiles\cmTC_0cd79.dir/objects.a -Wl,--no-whole-archive  -o cmTC_0cd79.exe -Wl,--out-implib,libcmTC_0cd79.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_0cd79.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/vim/mingw/bin/mingw32-make.exe" "cmTC_0fca4/fast"
+D:/vim/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTC_0fca4.dir\build.make CMakeFiles/cmTC_0fca4.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0fca4.dir/testCXXCompiler.cxx.obj
+D:\vim\mingw\bin\gcc.exe      -o CMakeFiles\cmTC_0fca4.dir\testCXXCompiler.cxx.obj -c D:\dllibrary\cmake-build-debug\CMakeFiles\CMakeTmp\testCXXCompiler.cxx
+Linking CXX executable cmTC_0fca4.exe
+"D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_0fca4.dir\link.txt --verbose=1
+"D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_0fca4.dir/objects.a
+D:\vim\mingw\bin\ar.exe cr CMakeFiles\cmTC_0fca4.dir/objects.a @CMakeFiles\cmTC_0fca4.dir\objects1.rsp
+D:\vim\mingw\bin\gcc.exe       -Wl,--whole-archive CMakeFiles\cmTC_0fca4.dir/objects.a -Wl,--no-whole-archive  -o cmTC_0fca4.exe -Wl,--out-implib,libcmTC_0fca4.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_0fca4.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/vim/mingw/bin/mingw32-make.exe" "cmTC_73f4f/fast"
+D:/vim/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTC_73f4f.dir\build.make CMakeFiles/cmTC_73f4f.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_73f4f.dir/CMakeCXXCompilerABI.cpp.obj
+D:\vim\mingw\bin\gcc.exe      -o CMakeFiles\cmTC_73f4f.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\clion\CLion 2016.3.5\bin\cmake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"
+Linking CXX executable cmTC_73f4f.exe
+"D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_73f4f.dir\link.txt --verbose=1
+"D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_73f4f.dir/objects.a
+D:\vim\mingw\bin\ar.exe cr CMakeFiles\cmTC_73f4f.dir/objects.a @CMakeFiles\cmTC_73f4f.dir\objects1.rsp
+D:\vim\mingw\bin\gcc.exe      -v -Wl,--whole-archive CMakeFiles\cmTC_73f4f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_73f4f.exe -Wl,--out-implib,libcmTC_73f4f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  
+Using built-in specs.
+COLLECT_GCC=D:\vim\mingw\bin\gcc.exe
+COLLECT_LTO_WRAPPER=d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe
+Target: mingw32
+Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --with-gmp=/mingw --with-mpfr --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --enable-libgomp --disable-libvtv --enable-nls
+Thread model: win32
+gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) 
+COMPILER_PATH=d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/;d:/vim/mingw/bin/../libexec/gcc/;d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/
+LIBRARY_PATH=d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/;d:/vim/mingw/bin/../lib/gcc/;d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/;d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_73f4f.exe' '-mtune=generic' '-march=i586'
+ d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\jinqiu\AppData\Local\Temp\ccre04xK.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_73f4f.exe d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Ld:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0 -Ld:/vim/mingw/bin/../lib/gcc -Ld:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Ld:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\cmTC_73f4f.dir/objects.a --no-whole-archive --out-implib libcmTC_73f4f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_73f4f.exe' '-mtune=generic' '-march=i586'
+mingw32-make.exe[1]: Leaving directory 'D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld\.exe|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"D:/vim/mingw/bin/mingw32-make.exe" "cmTC_73f4f/fast"]
+  ignore line: [D:/vim/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTC_73f4f.dir\build.make CMakeFiles/cmTC_73f4f.dir/build]
+  ignore line: [mingw32-make.exe[1]: Entering directory 'D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_73f4f.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [D:\vim\mingw\bin\gcc.exe      -o CMakeFiles\cmTC_73f4f.dir\CMakeCXXCompilerABI.cpp.obj -c "D:\clion\CLion 2016.3.5\bin\cmake\share\cmake-3.6\Modules\CMakeCXXCompilerABI.cpp"]
+  ignore line: [Linking CXX executable cmTC_73f4f.exe]
+  ignore line: ["D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_73f4f.dir\link.txt --verbose=1]
+  ignore line: ["D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_73f4f.dir/objects.a]
+  ignore line: [D:\vim\mingw\bin\ar.exe cr CMakeFiles\cmTC_73f4f.dir/objects.a @CMakeFiles\cmTC_73f4f.dir\objects1.rsp]
+  ignore line: [D:\vim\mingw\bin\gcc.exe      -v -Wl,--whole-archive CMakeFiles\cmTC_73f4f.dir/objects.a -Wl,--no-whole-archive  -o cmTC_73f4f.exe -Wl,--out-implib,libcmTC_73f4f.dll.a -Wl,--major-image-version,0,--minor-image-version,0  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:\vim\mingw\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe]
+  ignore line: [Target: mingw32]
+  ignore line: [Configured with: ../src/gcc-6.3.0/configure --build=x86_64-pc-linux-gnu --host=mingw32 --target=mingw32 --with-gmp=/mingw --with-mpfr --with-mpc=/mingw --with-isl=/mingw --prefix=/mingw --disable-win32-registry --with-arch=i586 --with-tune=generic --enable-languages=c,c++,objc,obj-c++,fortran,ada --with-pkgversion='MinGW.org GCC-6.3.0-1' --enable-static --enable-shared --enable-threads --with-dwarf2 --disable-sjlj-exceptions --enable-version-specific-runtime-libs --with-libiconv-prefix=/mingw --with-libintl-prefix=/mingw --enable-libstdcxx-debug --enable-libgomp --disable-libvtv --enable-nls]
+  ignore line: [Thread model: win32]
+  ignore line: [gcc version 6.3.0 (MinGW.org GCC-6.3.0-1) ]
+  ignore line: [COMPILER_PATH=d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/]
+  ignore line: [d:/vim/mingw/bin/../libexec/gcc/]
+  ignore line: [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/]
+  ignore line: [LIBRARY_PATH=d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/]
+  ignore line: [d:/vim/mingw/bin/../lib/gcc/]
+  ignore line: [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib/]
+  ignore line: [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_73f4f.exe' '-mtune=generic' '-march=i586']
+  link line: [ d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe -plugin d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll -plugin-opt=d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\jinqiu\AppData\Local\Temp\ccre04xK.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_eh -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -Bdynamic -o cmTC_73f4f.exe d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o -Ld:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0 -Ld:/vim/mingw/bin/../lib/gcc -Ld:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib -Ld:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../.. --whole-archive CMakeFiles\cmTC_73f4f.dir/objects.a --no-whole-archive --out-implib libcmTC_73f4f.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o]
+    arg [d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/collect2.exe] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/liblto_plugin-0.dll] ==> ignore
+    arg [-plugin-opt=d:/vim/mingw/bin/../libexec/gcc/mingw32/6.3.0/lto-wrapper.exe] ==> ignore
+    arg [-plugin-opt=-fresolution=C:\Users\jinqiu\AppData\Local\Temp\ccre04xK.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+    arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_eh] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmoldname] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+    arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+    arg [-Bdynamic] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_73f4f.exe] ==> ignore
+    arg [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../crt2.o] ==> ignore
+    arg [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/crtbegin.o] ==> ignore
+    arg [-Ld:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0] ==> dir [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0]
+    arg [-Ld:/vim/mingw/bin/../lib/gcc] ==> dir [d:/vim/mingw/bin/../lib/gcc]
+    arg [-Ld:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> dir [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib]
+    arg [-Ld:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> dir [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..]
+    arg [--whole-archive] ==> ignore
+    arg [CMakeFiles\cmTC_73f4f.dir/objects.a] ==> ignore
+    arg [--no-whole-archive] ==> ignore
+    arg [--out-implib] ==> ignore
+    arg [libcmTC_73f4f.dll.a] ==> ignore
+    arg [--major-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [--minor-image-version] ==> ignore
+    arg [0] ==> ignore
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [-ladvapi32] ==> lib [advapi32]
+    arg [-lshell32] ==> lib [shell32]
+    arg [-luser32] ==> lib [user32]
+    arg [-lkernel32] ==> lib [kernel32]
+    arg [-lmingw32] ==> lib [mingw32]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lgcc_eh] ==> lib [gcc_eh]
+    arg [-lmoldname] ==> lib [moldname]
+    arg [-lmingwex] ==> lib [mingwex]
+    arg [-lmsvcrt] ==> lib [msvcrt]
+    arg [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/crtend.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  remove lib [gcc]
+  remove lib [gcc_eh]
+  collapse library dir [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0] ==> [D:/vim/mingw/lib/gcc/mingw32/6.3.0]
+  collapse library dir [d:/vim/mingw/bin/../lib/gcc] ==> [D:/vim/mingw/lib/gcc]
+  collapse library dir [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/lib] ==> [D:/vim/mingw/mingw32/lib]
+  collapse library dir [d:/vim/mingw/bin/../lib/gcc/mingw32/6.3.0/../../..] ==> [D:/vim/mingw/lib]
+  implicit libs: [mingw32;moldname;mingwex;msvcrt;advapi32;shell32;user32;kernel32;mingw32;moldname;mingwex;msvcrt]
+  implicit dirs: [D:/vim/mingw/lib/gcc/mingw32/6.3.0;D:/vim/mingw/lib/gcc;D:/vim/mingw/mingw32/lib;D:/vim/mingw/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/vim/mingw/bin/mingw32-make.exe" "cmTC_65e7a/fast"
+D:/vim/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTC_65e7a.dir\build.make CMakeFiles/cmTC_65e7a.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_65e7a.dir/feature_tests.cxx.obj
+D:\vim\mingw\bin\gcc.exe     -std=c++14 -o CMakeFiles\cmTC_65e7a.dir\feature_tests.cxx.obj -c D:\dllibrary\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_65e7a.exe
+"D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_65e7a.dir\link.txt --verbose=1
+"D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_65e7a.dir/objects.a
+D:\vim\mingw\bin\ar.exe cr CMakeFiles\cmTC_65e7a.dir/objects.a @CMakeFiles\cmTC_65e7a.dir\objects1.rsp
+D:\vim\mingw\bin\gcc.exe       -Wl,--whole-archive CMakeFiles\cmTC_65e7a.dir/objects.a -Wl,--no-whole-archive  -o cmTC_65e7a.exe -Wl,--out-implib,libcmTC_65e7a.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_65e7a.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/vim/mingw/bin/mingw32-make.exe" "cmTC_cdffd/fast"
+D:/vim/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTC_cdffd.dir\build.make CMakeFiles/cmTC_cdffd.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cdffd.dir/feature_tests.cxx.obj
+D:\vim\mingw\bin\gcc.exe     -std=c++11 -o CMakeFiles\cmTC_cdffd.dir\feature_tests.cxx.obj -c D:\dllibrary\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_cdffd.exe
+"D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_cdffd.dir\link.txt --verbose=1
+"D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_cdffd.dir/objects.a
+D:\vim\mingw\bin\ar.exe cr CMakeFiles\cmTC_cdffd.dir/objects.a @CMakeFiles\cmTC_cdffd.dir\objects1.rsp
+D:\vim\mingw\bin\gcc.exe       -Wl,--whole-archive CMakeFiles\cmTC_cdffd.dir/objects.a -Wl,--no-whole-archive  -o cmTC_cdffd.exe -Wl,--out-implib,libcmTC_cdffd.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_cdffd.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command:"D:/vim/mingw/bin/mingw32-make.exe" "cmTC_93dfc/fast"
+D:/vim/mingw/bin/mingw32-make.exe -f CMakeFiles\cmTC_93dfc.dir\build.make CMakeFiles/cmTC_93dfc.dir/build
+mingw32-make.exe[1]: Entering directory 'D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_93dfc.dir/feature_tests.cxx.obj
+D:\vim\mingw\bin\gcc.exe     -std=c++98 -o CMakeFiles\cmTC_93dfc.dir\feature_tests.cxx.obj -c D:\dllibrary\cmake-build-debug\CMakeFiles\feature_tests.cxx
+Linking CXX executable cmTC_93dfc.exe
+"D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_93dfc.dir\link.txt --verbose=1
+"D:\clion\CLion 2016.3.5\bin\cmake\bin\cmake.exe" -E remove -f CMakeFiles\cmTC_93dfc.dir/objects.a
+D:\vim\mingw\bin\ar.exe cr CMakeFiles\cmTC_93dfc.dir/objects.a @CMakeFiles\cmTC_93dfc.dir\objects1.rsp
+D:\vim\mingw\bin\gcc.exe       -Wl,--whole-archive CMakeFiles\cmTC_93dfc.dir/objects.a -Wl,--no-whole-archive  -o cmTC_93dfc.exe -Wl,--out-implib,libcmTC_93dfc.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_93dfc.dir\linklibs.rsp
+mingw32-make.exe[1]: Leaving directory 'D:/dllibrary/cmake-build-debug/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates

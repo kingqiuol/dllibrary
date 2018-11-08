@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="utils"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\examples\;CMake Files\examples\NNS\;CMake Files\image\;CMake Files\src\;CMake Files\utils\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="D:/dllibrary/cmake-build-debug/utils"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/vim/mingw/bin/mingw32-make.exe -f &quot;D:/dllibrary/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/vim/mingw/bin/mingw32-make.exe -f &quot;D:/dllibrary/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/vim/mingw/bin/mingw32-make.exe -f &quot;D:/dllibrary/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/vim/mingw/bin/mingw32-make.exe -f &quot;D:/dllibrary/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils">
+				<Option output="D:/dllibrary/cmake-build-debug/utils/libutils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/dllibrary/cmake-build-debug/utils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/dllibrary/utils/.."/>
+					<Add directory="d:\vim\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\vim\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\vim\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\vim\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\vim\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\vim\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/vim/mingw/bin/mingw32-make.exe -f &quot;D:/dllibrary/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 utils"/>
+					<CompileFile command="D:/vim/mingw/bin/mingw32-make.exe -f &quot;D:/dllibrary/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/vim/mingw/bin/mingw32-make.exe -f &quot;D:/dllibrary/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/vim/mingw/bin/mingw32-make.exe -f &quot;D:/dllibrary/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils/fast">
+				<Option output="D:/dllibrary/cmake-build-debug/utils/libutils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/dllibrary/cmake-build-debug/utils"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/dllibrary/utils/.."/>
+					<Add directory="d:\vim\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="d:\vim\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="d:\vim\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="d:\vim\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="d:\vim\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="d:\vim\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/vim/mingw/bin/mingw32-make.exe -f &quot;D:/dllibrary/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 utils/fast"/>
+					<CompileFile command="D:/vim/mingw/bin/mingw32-make.exe -f &quot;D:/dllibrary/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/vim/mingw/bin/mingw32-make.exe -f &quot;D:/dllibrary/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/vim/mingw/bin/mingw32-make.exe -f &quot;D:/dllibrary/cmake-build-debug/utils/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="D:/dllibrary/utils/blas.c">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="D:/dllibrary/utils/blas.h">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="D:/dllibrary/utils/gemm.c">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="D:/dllibrary/utils/gemm.h">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="D:/dllibrary/utils/im2col.c">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="D:/dllibrary/utils/im2col.h">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="D:/dllibrary/utils/list.c">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="D:/dllibrary/utils/list.h">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="D:/dllibrary/utils/utils.c">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="D:/dllibrary/utils/utils.h">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="D:/dllibrary/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="D:/dllibrary/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\"/>
+		</Unit>
+		<Unit filename="D:/dllibrary/examples/NNS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\NNS\"/>
+		</Unit>
+		<Unit filename="D:/dllibrary/examples/NNS/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\NNS\"/>
+		</Unit>
+		<Unit filename="D:/dllibrary/image/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\image\"/>
+		</Unit>
+		<Unit filename="D:/dllibrary/image/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\image\"/>
+		</Unit>
+		<Unit filename="D:/dllibrary/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="D:/dllibrary/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="D:/dllibrary/utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\utils\"/>
+		</Unit>
+		<Unit filename="D:/dllibrary/utils/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\utils\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

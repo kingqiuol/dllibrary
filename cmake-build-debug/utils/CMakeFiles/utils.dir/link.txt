@@ -1,0 +1,2 @@
+D:\vim\mingw\bin\ar.exe qc libutils.a  CMakeFiles/utils.dir/utils.c.obj CMakeFiles/utils.dir/blas.c.obj CMakeFiles/utils.dir/im2col.c.obj CMakeFiles/utils.dir/gemm.c.obj CMakeFiles/utils.dir/list.c.obj
+D:\vim\mingw\bin\ranlib.exe libutils.a
